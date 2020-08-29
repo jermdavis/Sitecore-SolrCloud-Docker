@@ -1,0 +1,13 @@
+version: "2.4"
+services:
+
+  solr:
+    image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-xm1-solrcloud:${VERSION:-latest}
+    build:
+      context: ./containers/build/solrcloud
+      args:
+        BASE_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xm1-solr:${SITECORE_VERSION}
+    mem_limit: 1GB
+    entrypoint: powershell -Command "& C:\Cloud\StartCloud.ps1 c:\solr c:\data"
+    volumes:
+      - ${LOCAL_DATA_PATH}\solr:c:\data

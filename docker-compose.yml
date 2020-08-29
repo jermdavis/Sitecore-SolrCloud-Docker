@@ -1,0 +1,12 @@
+version: "2.4"
+services:
+
+  solr:
+    isolation: ${ISOLATION}
+    ports:
+      - "8984:8983"
+    image: ${SITECORE_DOCKER_REGISTRY}sitecore-xm1-solr:${SITECORE_VERSION}
+    volumes:
+      - type: bind
+        source: .\solr-data
+        target: c:\data
