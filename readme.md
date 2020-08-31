@@ -3,9 +3,9 @@
 These files can create a SolrCloud container that can be used with a Sitecore 10 instance under Docker.
 The files have been adjusted from the Solr container files in [the Sitecore Docker examples repo](https://github.com/sitecore/docker-examples).
 
-The default "solr" service can be replaced using these files.
+The default "solr" service Sitecore provide can be replaced using these files.
 
-See [this blog post for further details](https://jermdavis.wordpress.com/?p=4183).
+See [this blog post for further details](https://jermdavis.wordpress.com/2020/08/31/solrcloud-with-sitecore-10/) and explanations of how this works.
 
 ## Running
 
