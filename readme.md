@@ -12,4 +12,4 @@ See [this blog post for further details](https://jermdavis.wordpress.com/2020/08
 * Clone the repo
 * Open PowerShell in the cloned folder
 * Run `docker-compose up`
-* Open a web browser to `http://localhost:8984/`
+* Open a web browser to `http://localhost:8984/solr/`
