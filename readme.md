@@ -5,7 +5,7 @@ The files have been adjusted from the Solr container files in [the Sitecore Dock
 
 The default "solr" service Sitecore provide can be replaced using these files.
 
-See [this blog post for further details](https://jermdavis.wordpress.com/2020/08/31/solrcloud-with-sitecore-10/) and explanations of how this works.
+See [this blog post for further details](https://blog.jermdavis.dev/posts/2020/solrcloud-with-sitecore-10) and explanations of how this works.
 
 ## Running
 
